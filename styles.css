@@ -1,0 +1,108 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border: 6px white solid;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/** Hero **/ 
+.hero{
+    background-image: url("images/cape.jpeg");
+    background-size: cover;
+    padding: 30px 30px;
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+}
+
+.visit{
+    background: #1D3557;
+    margin: 50px auto;
+    font-size: 30px;
+    
+}
+
+.intro{
+    background: #457B9D;
+    font-size: 15px;
+    margin: 0 auto;
+    text-shadow: 1px 1px #1D3557;
+}
+
+/** Activities **/
+
+.activity{
+    background: #F1FAEE;
+    padding: 10px 0 20px 0;
+}
+
+.activity:hover{
+    font-size: 17px;
+}
+
+.bold{
+    color:#E63946;
+}   
+    
+
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;  
+}
+
+
+.commentary, .description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5px;  
+}
+
+p{
+    font-size: 13px;
+    padding: 0 20px;
+}
+
+/** Guide **/
+
+.guide{
+    background: #457B9D;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+}
+
+.profile{
+    border-radius: 5px;
+}
+
+.card{
+    background: #A8DADC;
+    display: flex;
+    height: 100px;
+    color: #1D3557;
+    height: 160px;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    
+}
